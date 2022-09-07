@@ -1,6 +1,5 @@
 package com.dmw.creation.singleton;
 
-import java.io.Serial;
 import java.io.Serializable;
 
 /**
@@ -9,7 +8,6 @@ import java.io.Serializable;
  * @description:  懒汉式：5--volatile
  */
 public class Singleton08 implements Serializable,Cloneable {
-    @Serial
     private static final long serialVersionUID = -1561532189595667925L;
     private static volatile Singleton08 singleton08;
 

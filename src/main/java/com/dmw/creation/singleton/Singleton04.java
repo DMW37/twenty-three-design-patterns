@@ -1,6 +1,6 @@
 package com.dmw.creation.singleton;
 
-import java.io.Serial;
+
 import java.io.Serializable;
 
 /**
@@ -9,7 +9,7 @@ import java.io.Serializable;
  * @description: 懒汉式：1
  */
 public class Singleton04 implements Serializable {
-    @Serial
+
     private static final long serialVersionUID = 2324160538947095084L;
     private static Singleton04 singleton04;
 

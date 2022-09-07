@@ -1,6 +1,5 @@
 package com.dmw.creation.singleton;
 
-import java.io.Serial;
 import java.io.Serializable;
 
 /**
@@ -9,7 +8,7 @@ import java.io.Serializable;
  * @description: 静态内部类:安全，懒加载
  */
 public class Singleton09 implements Serializable,Cloneable{
-    @Serial
+
     private static final long serialVersionUID = 5195577216141296569L;
 
 
